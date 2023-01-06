@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+/* top left start  */
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.main_1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/Picture2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.main_1_text > p {
+    font-size: 3rem;
+    text-align: center;
+    color: #F25C05;
+    opacity: 1;
+    font-family: 'Playfair Display';
+
+}
+
+.main_1_text {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* top left end */
+
+/* top center start */
+.main_2 {
+    background-color: #19201D;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.cente_svg {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.innner_center_textbox_top {
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+}
+
+.innner_center_textbox_top>p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display';
+}
+
+.cente_svg>p {
+    font-size: 24px;
+    font-family: 'Playfair Display';
+}
+
+.orange-bar {
+    width: 200px;
+    height: 5px;
+    background-color: #F25C05;
+    margin: auto;
+}
+
+/* top center end */
+
+/* top right start */
+
+.main_3 {
+    height: 100%;
+    width: 100%;
+    display: block;
+    color: #F25C05;
+}
+
+.svg_logo_container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+
+.main_3_image {
+    height: 60%;
+    width: auto;
+    background-image: url(images/Picture1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.main_3_text {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_3_text>p {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display';
+    color: #000;
+    text-align: center;
+}
+
+/* top right end */
+
+/* section_2 styling start */
+.section_2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_background {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background-image: url(images/Picture5.jpg);
+    background-position: 50% 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom_face {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #19201D;
+    gap: 25px;
+    height: 60%;
+    width: 100%;
+}
+
+.inner_div_botom_face {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.botom_DIV_CENTER {
+    background-color: #FBE5D6;
+    width: 100%;
+    height: 650px;
+    padding: 25px;
+    margin-top: -250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+/* section_2 styling end */
+
+
+/* text_styling */
+.headings {
+    font-size: 2.6rem;
+    font-family: 'Playfair Display';
+    color: #F25C05;
+    text-align: center;
+}
+
+.brochore_text {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffff;
+    opacity: 1;
+    font-family: 'Playfair Display'
+}
+
+.services_headings {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #000;
+    opacity: 1;
+    font-family: 'Playfair Display';
+    text-decoration: underline;
+}
+
+.services_text {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* text_styling end */
