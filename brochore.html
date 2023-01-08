@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brochore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -152,7 +153,7 @@
             </div>
             <div class="botom_DIV_CENTER">
                 <p class="headings" style="font-weight: 600;">OUR SERVICES</p>
-                
+
                 <p class="services_headings">
                     Seaside Tours
                 </p>
@@ -178,6 +179,73 @@
             </div>
         </div>
     </section>
+
+    <section class="forms_section">
+        <div class="sales_table">
+            <table>
+                <tr>
+                    <th>Destination</th>
+                    <th>Price per Person</th>
+                    <th>Package Includes</th>
+                </tr>
+                <tr>
+                    <td>Hawaii</td>
+                    <td>$1,500</td>
+                    <td>Flights, hotel, daily breakfast, and airport transfers</td>
+                </tr>
+                <tr>
+                    <td>Tokyo</td>
+                    <td>$2,000</td>
+                    <td>Flights, hotel, daily breakfast, and airport transfers</td>
+                </tr>
+                <tr>
+                    <td>Paris</td>
+                    <td>$1,800</td>
+                    <td>Flights, hotel, daily breakfast, and airport transfers</td>
+                </tr>
+                <tr>
+                    <td>Bali</td>
+                    <td>$1,700</td>
+                    <td>Flights, hotel, daily breakfast, and airport transfers</td>
+                </tr>
+                <tr>
+                    <td>Rome</td>
+                    <td>$1,900</td>
+                    <td>Flights, hotel, daily breakfast, and airport transfers</td>
+                </tr>
+            </table>
+        </div>
+        <div class="register_form_div">
+            <form action=".">
+                <h2>Register Now</h2>
+                <p>or vist our <a href="https://github.com/sameer-ahmed123/brochore_project" target="_blank"
+                        title="MY GITHUB CODEBASE">coustomer care </a><i class="fa fa-anchor"
+                        style="font-size:24px;margin-left: 5px;"></i></p>
+                <label for="first_name">First Name:</label>
+                <input type="text" name="" id="first_name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="" id="last_name">
+                <label for="email">Email:</label>
+                <input type="email" name="" id="email">
+                <br>
+                <label for="destination">Prefered Destiation</label>
+                <select id="destination" name="destination">
+                    <option value="hawaii">Hawaii</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="paris">Paris</option>
+                    <option value="bali">Bali</option>
+                    <option value="rome">Rome</option>
+                </select><br><br>
+
+                <label for="Stay-type">Category</label>
+                <input type="radio" name="stay-type"><span>standered</span>
+                <input type="radio" name="stay-type" id="stay-type"><span>bussines</span>
+                <input type="radio" name="stay-type" id=""><span>Luxury</span>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
 </body>
+
 
 </html>

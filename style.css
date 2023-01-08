@@ -24,7 +24,7 @@
     opacity: 0.9;
 }
 
-.main_1_text > p {
+.main_1_text>p {
     font-size: 3rem;
     text-align: center;
     color: #F25C05;
@@ -218,3 +218,120 @@
 }
 
 /* text_styling end */
+
+
+/* table and form section */
+
+.forms_section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+
+    /* used gradient gen */
+    background: hsla(154, 12%, 11%, 1);
+
+    background: linear-gradient(180deg, hsla(154, 12%, 11%, 1) 50%, hsla(158, 77%, 77%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(154, 12%, 11%, 1) 50%, hsla(158, 77%, 77%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(154, 12%, 11%, 1) 50%, hsla(158, 77%, 77%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#19201D", endColorstr="#99F2D1", GradientType=1);
+}
+
+.sales_table {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.register_form_div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+
+
+form {
+    background-color: #19201D;
+    color: #dddddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form a {
+    color: #dddddd;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    background-color: #19201D;
+    color: #dddddd;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: #dddddd;
+    color: #19201D;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #dddddd;
+    color: #19201D;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* table and form section end */
