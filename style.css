@@ -336,17 +336,3 @@ form input[type="submit"]:hover {
 
 /* table and form section end */
 
-
-@media (width <320px ) {
-    .forms_section{
-        flex-direction: column;
-    }
-
-    .sales_table{
-        flex-direction: column;
-    }
-
-    .register_form_div{
-        flex-direction: column;
-    }
-}
