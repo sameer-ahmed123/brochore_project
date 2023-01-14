@@ -341,4 +341,12 @@ form input[type="submit"]:hover {
     .forms_section{
         flex-direction: column;
     }
+
+    .sales_table{
+        flex-direction: column;
+    }
+
+    .register_form_div{
+        flex-direction: column;
+    }
 }
