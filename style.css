@@ -228,10 +228,10 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: nowrap;
-
+    background-color: lightblue;
 
     /* used gradient gen */
-    background: hsla(154, 12%, 11%, 1);
+    /* background: hsla(154, 12%, 11%, 1);
 
     background: linear-gradient(180deg, hsla(154, 12%, 11%, 1) 50%, hsla(158, 77%, 77%, 1) 100%);
 
@@ -239,7 +239,7 @@
 
     background: -webkit-linear-gradient(180deg, hsla(154, 12%, 11%, 1) 50%, hsla(158, 77%, 77%, 1) 100%);
 
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#19201D", endColorstr="#99F2D1", GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#19201D", endColorstr="#99F2D1", GradientType=1); */
 }
 
 .sales_table {
@@ -248,7 +248,9 @@
     align-items: center;
     justify-content: center;
     padding: 25px;
+    border-radius: 10px;
 }
+
 
 .register_form_div {
     width: 50%;
@@ -259,11 +261,12 @@
 
 table {
     border-collapse: collapse;
+   
 }
 
 th,
 td {
-    border: 1px solid #dddddd;
+    border: 2px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
